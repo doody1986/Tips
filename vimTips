@@ -1,0 +1,2 @@
+# Command that changes indent 4 space to 2 space
+%s;^\(\s\+\);\=repeat(' ', len(submatch(0))/2);g
